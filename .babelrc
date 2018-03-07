@@ -1,0 +1,17 @@
+{
+    "presets": [
+        "react"
+    ],
+    "plugins": [
+        [
+          "direct-import",
+          [
+            "@appbaseio/reactivesearch",
+            {
+              "name": "@appbaseio/reactivesearch",
+              "indexFile": "@appbaseio/reactivesearch/lib/index.es.js"
+            }
+          ]
+        ]
+    ]
+}

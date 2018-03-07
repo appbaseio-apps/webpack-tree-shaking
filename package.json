@@ -1,0 +1,26 @@
+{
+  "name": "webpack-tree-shaking",
+  "version": "1.0.0",
+  "main": "index.js",
+  "sideEffects": false,
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-direct-import": "^0.5.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "uglifyjs-webpack-plugin": "^1.2.2",
+    "webpack": "^4.1.0",
+    "webpack-cli": "^2.0.10"
+  },
+  "scripts": {
+    "start": "webpack --config webpack.config.js",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@appbaseio/reactivesearch": "^2.3.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
